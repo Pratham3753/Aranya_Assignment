@@ -275,8 +275,14 @@
                   response => response.json()
               ).then((html) => {
                 alert('Thank You For Contacting Us!');
+                  resetForm();
               });
             });
+            function resetForm() {
+                document.getElementById("name").value = '';
+                document.getElementById("phone").value = '';
+                document.getElementById("email").value = '';
+            }
           </script>
     </body>
 </html>
