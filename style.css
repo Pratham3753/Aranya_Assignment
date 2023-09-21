@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&family=Rowdies:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home{
+    height:710px;
+    width: 100%;
+    background: url("images/registration_img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+}
+
+.home .header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+} 
+
+.home .logo{
+    color: white;
+    padding-left: 10px;
+}
+
+.home .navbar a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.home .btn{
+    color: white;
+    background-color: green;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    top: 58px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.home #A{
+    
+    height: 19px;
+    width: 68px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    
+}
+.home .mumbai{
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    padding: 15px;
+
+}
+
+.home h1{
+    text-align: center;
+    font-family: Gabriela;
+    color: white;
+    font-size: 60px;
+    padding-top: 300px;
+}
+.home .mumbai_paragraph{
+    font-size: 25px;
+    color: cyan;
+    font-family: Sharpe PERSONAL;
+    text-align: center;
+}
+
+
+.gallery{
+width: 100%;
+height: 500px;
+background: #1A2440;
+margin-bottom: 50px;
+}
+
+.gallery .gallery_navbar{
+width: 90%;
+height: 50px;
+background-color: white;
+display: flex;
+justify-content: space-between;
+border-radius: 10px;
+margin-left: 50px;
+margin-top: 30px;
+padding: 5px;
+}
+
+.gallery img{
+width: 302.64px;
+height: 412.46px;
+left: 293.87px;
+padding-left: 300px;
+padding-top: 25px;
+}
+
+.advantages{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.advantages-1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 50px;
+}
+
+.text{
+    font-size: 50px;
+    margin-top: -2px;
+    margin-bottom: 90px;
+}
+.text-1{
+    color: #00E5A1;
+}
+h1{
+    font-size: 19px;
+}
+
+.con1{
+    margin-top: 100px;
+}
+
+.con2{
+    margin-top: -20px;
+}
+
+.con3{
+    margin-top: 180px;
+}
+.container-1{
+    width: 70%;
+    border-left: 1px solid black;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 450px;
+}
+
+.akash{
+    width: 280px;
+    height: 270px;
+
+}
+.alig{
+    height: 100px;
+    width: 300px;
+    font-size: .9rem;
+}
+
+/* Amenities section */
+
+.amenties{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.amenties-1{
+    width: 70%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-2{
+    width: 300px;
+    height: 120px;
+}
+
+.img{
+    margin-top: 120px;
+    height: 696px;
+    width: 1450px;	
+    margin-left: -8px;
+}
+.h-1{
+    font-size: 40px;
+    margin-top: -10px;
+}
+.text-1{
+    color: #00E5A1;
+}
+p{
+    margin-top: -15
+    px;
+}
+
+/* Spectacular Section */
+
+.spectacular_section{
+    margin-top: 100px;
+    width: 100%;
+    height: 1417px;
+    background: #1A2440;
+}
+
+.spectacular_content h1{
+    color: white;
+    padding-left: 60px;
+    padding-top:60px;
+    font-size: 2rem;
+}
+
+.spectacular_content p{
+    color: rgb(152, 150, 150);
+    padding-left: 60px;
+    padding-top:10px;
+    font-weight: 300;
+    width: 400px;
+    font-size: .7rem;
+}
+
+.spectacular_subcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.spectacular_header h1{
+    color: #00E5A1;
+    font-size: 2rem;  
+}
+
+.spectacular_header p{
+    color: grey;
+    font-weight: 300;
+    font-size: .6rem;
+}
+
+hr{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 90px;
+}
+
+.spectacular_title{
+    margin: 50px 650px;
+}
+
+.spectacular_title a{
+    color: #00E5A1;
+    text-decoration: none;
+    padding-top: 50px;
+    text-transform: uppercase;
+    padding-left: 55px;
+}
+
+.spectacular_title h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+.spectacular_list{
+    width: 80%;
+    margin-left: 140px;
+    margin-bottom: 140px;
+}
+
+.spectacular_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.spectacular_col{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.spectacular_col p{
+    color: grey;
+    font-size: .7rem;
+}
+
+.spectacular_contactus{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactus{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.contactus h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.contactus p{
+    color: grey;
+    font-size: .7rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+input{
+    padding: 7px 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(128, 128, 128);
+    margin-top: 10px;   
+    color: white;
+}
+
+form i{
+    position: absolute;
+}
+
+.icon {
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+input::placeholder{
+    color: rgb(166, 164, 164);
+}
+
+.form_btn{
+    padding: 7px 20px;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    background-color: #00E5A1;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+/* Footer Section */
+
+.footer_section{
+    width: 100%;
+    height: 470px;
+}
+
+.footer_content{
+    width: 300px;
+    height: 300px;
+    padding-top: 80px;
+    margin-left: 600px;
+    text-align: center;
+}
+
+.footer_content p{
+    font-weight: bolder;
+}
+
+.call_icon{
+    background-color: #1A2440;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.footer_content h1{
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.footer_social{
+    text-align: center;
+}
+
+.footer_copyright{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: .6rem;
+}
+
+
+
+  

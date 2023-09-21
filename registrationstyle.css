@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&family=Rowdies:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registration-section{
+    width: 100%;
+    height: 690px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_heading{
+    margin-top: 7px;
+    margin-left: 60px;
+}
+
+.navbar_heading h4{
+    font-weight: bolder;
+}
+
+.navbar_heading p{
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.navbar_number{
+    margin-right: 60px;
+    margin-top: 15px;
+    color: red;
+    font-size: .9rem;
+    font-weight: bolder;
+}
+
+.registration_content{
+    width: 93%;
+    margin-left: 3.5%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.registration_title{
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+.registration_title h1{
+    font-size: 2rem;
+}
+
+.registration_title p{
+    padding-top: 15px;
+    font-size: .7rem;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.registration_title a{
+    color: white;
+    padding: 10px;
+    background: #1A2440;
+    border-radius: 5px;
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+.registration_disclamer{
+    width: 94%;
+    margin-left: 3.5%;
+    margin-top: 40px;
+}
+
+.registration_disclamer h4{
+    font-weight: bolder;
+}
+
+.registration_paragraph{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.registration_disclamer p{
+    margin-top: 20px;
+}
+
+.registration_disclamer span{
+    font-weight: bolder;
+}
