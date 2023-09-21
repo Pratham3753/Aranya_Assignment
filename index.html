@@ -220,7 +220,7 @@
                     <p>Please enter details below and we shall get in<br />touch
                         with you shortly
                     </p>
-                    <form name="submit sheet" action="https://sheetdb.io/api/v1/1eqcn1v15h9jo" action="https://api.propacity.in/api/v1/webhooks/integration/61cf0d44-1ede-4dfa-b3ce-930072581261/insertLead" method="post" id="sheetdb" onsubmit="resetForm()">
+                    <form name="submit sheet" action="https://sheetdb.io/api/v1/1eqcn1v15h9jo" action="https://api.propacity.in/api/v1/webhooks/integration/61cf0d44-1ede-4dfa-b3ce-930072581261/insertLead" method="post" id="sheetdb">
                         <i><box-icon name='user' class="icon"></box-icon></i>
                         <input type="text" name="data[name]"
                             placeholder="Full Name" id="name" required><br />
@@ -277,11 +277,6 @@
                 alert('Thank You For Contacting Us!');
               });
             });
-            function resetForm() {
-                document.getElementById("name").value = '';
-                document.getElementById("phone").value = '';
-                document.getElementById("email").value = '';
-            }
           </script>
     </body>
 </html>
